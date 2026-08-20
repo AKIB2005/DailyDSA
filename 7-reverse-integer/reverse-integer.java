@@ -2,7 +2,7 @@ import java.util.List;
 class Solution {
     public int reverse(int x) {
         int rev = 0;
-
+//Applying conditions to check integer
         while (x != 0) {
             int digit = x % 10;
             x /= 10;
