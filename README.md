@@ -9,13 +9,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/AKIB2005/DailyDSA/tree/master/0010-regular-expression-matching) |
 | [0509-fibonacci-number](https://github.com/AKIB2005/DailyDSA/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/AKIB2005/DailyDSA/tree/master/0010-regular-expression-matching) |
 | [0509-fibonacci-number](https://github.com/AKIB2005/DailyDSA/tree/master/0509-fibonacci-number) |
 ## Memoization
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/AKIB2005/DailyDSA/tree/master/0509-fibonacci-number) |
+## String
+|  |
+| ------- |
+| [0010-regular-expression-matching](https://github.com/AKIB2005/DailyDSA/tree/master/0010-regular-expression-matching) |
 <!---LeetCode Topics End-->
