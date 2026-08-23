@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/AKIB2005/DailyDSA/tree/master/0007-reverse-integer) |
+| [0012-integer-to-roman](https://github.com/AKIB2005/DailyDSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/AKIB2005/DailyDSA/tree/master/0013-roman-to-integer) |
 | [0509-fibonacci-number](https://github.com/AKIB2005/DailyDSA/tree/master/0509-fibonacci-number) |
 ## Dynamic Programming
@@ -25,9 +26,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/AKIB2005/DailyDSA/tree/master/0010-regular-expression-matching) |
+| [0012-integer-to-roman](https://github.com/AKIB2005/DailyDSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/AKIB2005/DailyDSA/tree/master/0013-roman-to-integer) |
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/AKIB2005/DailyDSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/AKIB2005/DailyDSA/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
