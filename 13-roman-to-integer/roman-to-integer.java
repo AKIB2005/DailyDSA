@@ -4,17 +4,15 @@ class Solution {
         String romanChars = "IVXLCDM";
         int[] romanValues = {1, 5, 10, 50, 100, 500, 1000};
       
-        // Create a mapping from Roman characters to their integer values
         Map<Character, Integer> romanToValueMap = new HashMap<>();
         for (int i = 0; i < romanValues.length; i++) {
             romanToValueMap.put(romanChars.charAt(i), romanValues[i]);
         }
       
-        // Get the length of the input string
+     
         int length = s.length();
       
-        // Initialize result with the value of the last character
-        // (Last character is always added, never subtracted)
+        
         int result = romanToValueMap.get(s.charAt(length - 1));
       
         // Process each character from left to right (except the last one)
