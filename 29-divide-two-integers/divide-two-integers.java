@@ -5,13 +5,13 @@ class Solution {
             return dividend;
         }
         
-        // Edge Case 2: Strict 32-bit overflow guard (-2^31 / -1)
+       
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
             return Integer.MAX_VALUE;
         }
         
         // Determine the sign of the final result
-        // True if both have the same sign, false otherwise
+
         boolean isPositiveResult = (dividend > 0 && divisor > 0) || (dividend < 0 && divisor < 0);
         
         // Convert both numbers to NEGATIVE to prevent overflow
