@@ -1,27 +1,18 @@
-import java.util.List;
 class Solution {
-    public int reverse(int x) {
-        int rev = 0;
-//Applying conditions to check integer
-        while (x != 0) {
-            int digit = x % 10;
-            x /= 10;
+    public int reverse(int n) {
+        long rev = 0; 
 
-            if (rev > Integer.MAX_VALUE / 10 ||
-                (rev == Integer.MAX_VALUE / 10 && digit > 7)) {
-                return 0;
-            }
-
-            if (rev < Integer.MIN_VALUE / 10 ||
-                (rev == Integer.MIN_VALUE / 10 && digit < -8)) {
-                return 0;
-            }
-
-            rev = rev * 10 + digit;
+        while (n != 0) {
+            int lastDigit = n % 10;
+            rev = (rev * 10) + lastDigit;
+            n = n / 10;
         }
-        // This is first github push for leetcode
-        
 
-        return rev;
+       
+        if (rev > Integer.MAX_VALUE || rev < Integer.MIN_VALUE) {
+            return 0;
+        }
+
+        return (int) rev;
     }
 }
