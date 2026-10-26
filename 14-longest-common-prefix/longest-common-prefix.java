@@ -6,8 +6,7 @@ class Solution {
      * @return The longest common prefix, or empty string if no common prefix exists
      */
     public String longestCommonPrefix(String[] strs) {
-        // Get the total number of strings in the array
-        int numberOfStrings = strs.length;
+       int numberOfStrings = strs.length;
       
         for (int charIndex = 0; charIndex < strs[0].length(); charIndex++) {
             // Compare this character position across all other strings
