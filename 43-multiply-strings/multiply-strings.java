@@ -7,10 +7,10 @@ class Solution {
         
         int m = num1.length();
         int n = num2.length();
-        // The maximum possible length of the product is m + n
+    
         int[] pos = new int[m + n];
         
-        // Multiply from right to left
+   
         for (int i = m - 1; i >= 0; i--) {
             int digit1 = num1.charAt(i) - '0';
             for (int j = n - 1; j >= 0; j--) {
