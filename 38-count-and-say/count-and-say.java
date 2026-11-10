@@ -3,7 +3,6 @@ class Solution {
         // Base case
         String currentSeq = "1";
         
-        // Generate sequences iteratively up to n
         for (int iter = 1; iter < n; iter++) {
             StringBuilder nextSeq = new StringBuilder();
             int i = 0;
