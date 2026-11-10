@@ -9,7 +9,6 @@ class Solution {
             
             while (i < currentSeq.length()) {
                 int count = 1;
-                // Count consecutive identical characters
                 while (i + 1 < currentSeq.length() && currentSeq.charAt(i) == currentSeq.charAt(i + 1)) {
                     count++;
                     i++;
